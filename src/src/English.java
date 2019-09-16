@@ -1,3 +1,4 @@
+//Filip Černecký
 package src;
 //Wip
 public class English extends Subject{
