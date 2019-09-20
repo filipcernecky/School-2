@@ -24,25 +24,25 @@ public class Math extends Subject {
 
 	    return number*negation;
 	    }
-	//wip
+
 	public boolean checkPrime(int number){  
         int delitel = 1;
         int count = 1;
 
-        int countSteps = 0;
+        int counter = 0;
 
         if (number<=1){
-            System.out.println("Count of Steps is : "+countSteps);
+            System.out.println("Count of Steps is : "+counter);
             return false;
         }else {
             while(delitel!=number){
-                countSteps++;
+            	counter++;
                 if (number%delitel == 0){
                     count++;
                 }
                 delitel++;
             }
-            System.out.println("Count of Steps is : "+countSteps);
+            System.out.println("Count of Steps is : "+counter);
             return count == 2;
         }
     }

@@ -14,5 +14,9 @@ public class Main {
         Math math = new Math();
         System.out.println(math.reverse(31));
         System.out.println("Prime number "+math.checkPrime(17));
+        
+        Other other = new Other();
+        System.out.println("1,44 € "+" "+other.checkPrice("1,44 €"));
+
     }
 }
