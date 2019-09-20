@@ -1,4 +1,3 @@
-//Filip Černecký
 package src;
 
 public class Slovak {

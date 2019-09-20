@@ -1,4 +1,3 @@
-//Filip Černecký
 package src;
 
 public class Main {
@@ -8,9 +7,12 @@ public class Main {
 
 		Slovak slovakLang = new Slovak();
         System.out.println(slovakLang.formatText("dnes JE POndelok"));
-        // English wip
+        
+        English english = new English();
+        System.out.println(english.translate(null));
         
         Math math = new Math();
-        System.out.println(math.reverse(123));
+        System.out.println(math.reverse(31));
+        System.out.println("Prime number "+math.checkPrime(17));
     }
 }
